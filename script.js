@@ -84,7 +84,7 @@ btnHold.addEventListener('click', function () {
         .classList.add('player--winner');
       document
         .querySelector(`.player--${activePlayer}`)
-        .classList.remove('player--active');
+        .classList.remove('player--active'); //my name is kennedy"
     } else {
       switchPlayer();
     }
